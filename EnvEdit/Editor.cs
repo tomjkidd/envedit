@@ -111,14 +111,18 @@ namespace EnvEdit
                 "",
                 "Available Commands",
                 "------------------",
-                "cd: toggle between user/system environments (REPL mode)",
+                "help: display this help menu",
                 "ls: list the variables available in the current environment",
                 "get name: list the value of variable name",
                 "set name value: set the value of variable name",
                 "rm name: delete the variable name",
                 "append name value: append value to variable name",
+                "",
+                "REPL Specific Commands",
+                "----------------------",
                 "quit: quit (REPL mode)",
-                "help: display this help menu"
+                "cd: toggle between user/system environments (REPL mode)",
+                
             };
             return String.Join("\n", strs);
         }
